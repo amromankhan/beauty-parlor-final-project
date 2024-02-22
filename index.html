@@ -1,429 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Beauty Salon</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- header -->
-    <section class="header">
-      <a href="#" class="logo" id="logoname"> <i>Beauty Salon</i> </a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wecome Page</title>
+  <link rel="stylesheet" href="./index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+  <title>Beauty Salon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-      <nav class="navbar">
-        <div id="close-navbar" class="fas fa-times"></div>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#styles">Styles</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#blog">Blogs</a>
-        <a href="#visit"><span>Make An Appointment</span></a>
-        <a href="#review">Review</a>
-      </nav>
+  <link rel="stylesheet" href="./css/style.css" />
 
-      <div id="menu-btn" class="fas fa-bars"></div>
-    </section>
-    <!-- header -->
+</head>
 
-    <!-- home -->
+<body>
 
-    <section class="home" id="home">
+
+  <!-- header -->
+  <section class="header">
+    <a href="index.html" class="logo" id="logoname"> <i>Beauty Salon</i> </a>
+
+    <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="styles.html">Styles</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html">Blogs</a>
+      <a href="appointment.html"><span>Make An Appointment</span></a>
+      <a href="review.html">Review</a>
+      <button class="logout" onclick="logout()">Logout</button>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+  </section>
+  <!-- header -->
+
+  <!-- home -->
+
+  <section class="home" id="home">
+    <div class="content">
+      <span>Welcome</span>
+      <h3>
+        Get Your <br />
+        Best Face <br />
+        Glow With Us
+      </h3>
+    </div>
+  </section>
+  <!-- home -->
+
+  <!-- about us -->
+
+  <section class="about" id="about">
+    <h1 class="heading">about us</h1>
+
+    <div class="row">
+      <div class="image">
+        <img src="./images/about.png" alt="" />
+      </div>
+
       <div class="content">
-        <span>Welcome</span>
-        <h3>
-          Get Your <br />
-          Best Face <br />
-          Glow With Us
-        </h3>
-      </div>
-    </section>
-    <!-- home -->
+        <h3 class="title">We are a group of Beautician</h3>
+        <p>
+          Our transition from one single branch primarily offering bridal
+          makeup services, to one of the fastest growing network of modern and
+          full-service Beauty and Hair salons in Pakistan is earmarked with a
+          vision to deliver experiences that not only move hearts and minds
+          but also fuels passion for progress and growth.
+        </p>
+        <p>
+          our operations in Pakistan, we stand tall as one of the leading
+          brands in the beauty industry of Pakistan.
+        </p>
 
-    <!-- about us -->
+        <div class="icons-container">
+          <div class="icons">
+            <img src="./images/about-icon-2.png" alt="" />
+            <h3>quality products</h3>
+          </div>
 
-    <section class="about" id="about">
-      <h1 class="heading">about us</h1>
-
-      <div class="row">
-        <div class="image">
-          <img src="images/about.png" alt="" />
+          <div class="icons">
+            <img src="./images/about-icon-1.png" alt="" />
+            <h3>Professional tools</h3>
+          </div>
+          <div class="icons">
+            <img src="./images/about-icon-3.png" alt="" />
+            <h3>skilled professionals</h3>
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- about us end -->
+
+  <!-- services -->
+
+  <section class="services" id="services">
+    <h1 class="heading">Our services</h1>
+
+    <div class="box-container">
+      <div class="box">
+        <img src="./images/services01.png" alt="" />
         <div class="content">
-          <h3 class="title">We are a group of Beautician</h3>
-          <p>
-            Our transition from one single branch primarily offering bridal
-            makeup services, to one of the fastest growing network of modern and
-            full-service Beauty and Hair salons in Pakistan is earmarked with a
-            vision to deliver experiences that not only move hearts and minds
-            but also fuels passion for progress and growth.
-          </p>
-          <p>
-            our operations in Pakistan, we stand tall as one of the leading
-            brands in the beauty industry of Pakistan.
-          </p>
-
-          <div class="icons-container">
-            <div class="icons">
-              <img src="images/about-icon-2.png" alt="" />
-              <h3>quality products</h3>
-            </div>
-
-            <div class="icons">
-              <img src="images/about-icon-1.png" alt="" />
-              <h3>Professional tools</h3>
-            </div>
-            <div class="icons">
-              <img src="images/about-icon-3.png" alt="" />
-              <h3>skilled professionals</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- about us end -->
-
-    <!-- services -->
-
-    <section class="services" id="services">
-      <h1 class="heading">Our services</h1>
-
-      <div class="box-container">
-        <div class="box">
-          <img src="images/services01.png" alt="" />
-          <div class="content">
+          <a href="bridalservice.html">
             <h3>Bridal Make-up</h3>
-          </div>
+          </a>
         </div>
+      </div>
 
-        <div class="box">
-          <img src="images/services02.png" alt="" />
-          <div class="content">
+      <div class="box">
+        <img src="./images/services02.png" alt="" />
+        <div class="content">
+          <a href="weddingservice.html">
             <h3>Wedding Service</h3>
-          </div>
+          </a>
         </div>
+      </div>
 
-        <div class="box">
-          <img src="images/services03.png" alt="" />
-          <div class="content">
+      <div class="box">
+        <img src="./images/services03.png" alt="" />
+        <div class="content">
+          <a href="bridalmehandiservice.html">
             <h3>Bridal Mehandi</h3>
-          </div>
-        </div>
-
-        <div class="box">
-          <img src="images/services04.png" alt="" />
-          <div class="content">
-            <h3>Hair Extension</h3>
-          </div>
+          </a>
         </div>
       </div>
-    </section>
 
-    <!-- services end -->
-
-    <!-- styles -->
-
-    <section class="styles" id="styles">
-      <h1 class="heading">choose your styles</h1>
-
-      <div class="box-container">
-        <div class="box">
-          <div class="image">
-            <img src="images/style1.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3 class="title">Wedding Make-up</h3>
-            <p>
-              traditional or Modern Makeover; you deserve nothing but the best.
-            </p>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/style2.png" alt="" />
-          </div>
-          <div class="content">
-            <h3 class="title">Party Make-up</h3>
-            <p>
-              A complexion treatment enhances eyes, brows, and lips to add
-              definition to the face.
-            </p>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/style3.png" alt="" />
-          </div>
-          <div class="content">
-            <h3 class="title">Mehandi</h3>
-            <p>
-              Unique and trendy designs different types of bridal & party
-              Mehndi.
-            </p>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/style4.jpg" alt="" />
-          </div>
-          <div class="content">
-            <h3 class="title">Hair Style</h3>
-            <p>
-              Hair extensions offer an instant and dramatic change in style for
-              a client.
-            </p>
-          </div>
+      <div class="box">
+        <img src="./images/services04.png" alt="" />
+        <div class="content">
+          <a href="hairextensionservice.html">
+            <h3>Hair Styling</h3>
+          </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- styles end-->
+  <!-- services end -->
 
-    <!-- pricing -->
+  <!-- styles -->
 
-    <section class="pricing" id="pricing">
-      <h1 class="heading">Offer and Pricing</h1>
+  <section class="styles" id="styles">
+    <h1 class="heading">choose your styles</h1>
 
-      <div class="box-container">
-        <div class="box">
-          <h3 class="title">Basic</h3>
-          <div class="price">
-            <span class="currency">Rs</span>
-            <span class="amount">5k</span>
-          </div>
-          <ul>
-            <li><i class="fas fa-check"></i> Face Polish</li>
-            <li><i class="fas fa-check"></i> Facial</li>
-            <li><i class="fas fa-check"></i> Eye Brow</li>
-            <li><i class="fas fa-check"></i> Protein Treatment</li>
-          </ul>
-          <a href="#"><button>Purchase Now</button></a>
-        </div>
-
-        <div class="box">
-          <h3 class="title">Standard</h3>
-          <div class="price">
-            <span class="currency">Rs</span>
-            <span class="amount">10k</span>
-          </div>
-          <ul>
-            <li><i class="fas fa-check"></i> Botox</li>
-            <li><i class="fas fa-check"></i> Hair Glossing</li>
-            <li><i class="fas fa-check"></i> Gold Facial</li>
-            <li><i class="fas fa-check"></i> Perms</li>
-          </ul>
-          <a href="#"><button>Purchase Now</button></a>
-        </div>
-
-        <div class="box">
-          <h3 class="title">Premium</h3>
-          <div class="price">
-            <span class="currency">Rs</span>
-            <span class="amount">15k</span>
-          </div>
-          <ul>
-            <li><i class="fas fa-check"></i>Meni Pedi</li>
-            <li><i class="fas fa-check"></i>Hydra Cellular Facial</li>
-            <li><i class="fas fa-check"></i>Age Summum</li>
-            <li><i class="fas fa-check"></i>Shampoo + Conditioning</li>
-          </ul>
-          <a href="#"><button>Purchase Now</button></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- pricing end -->
-
-    <!-- blog -->
-
-    <section class="blogs" id="blog">
-      <h1 class="heading">our blogs</h1>
-
-      <div class="box-container">
-        <div class="box">
-          <div class="image">
-            <img src="images/blog1.jpg" alt="" />
-          </div>
-          <div class="content">
-            <a href="#" class="title">Bridal Make-up</a>
-            <span>by Admin / 11th june, 2021</span>
-            <p>Bridal makeup is a special type of makeup that is applied to a bride on her wedding day,
-              Flawless makeup to make you look and feel your best. We bring
-              everything you need!
-            </p>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/blog2.jpg" alt="" />
-          </div>
-          <div class="content">
-            <a href="#" class="title">Facial Treatment</a>
-            <span>by Admin / 16th September, 2022</span>
-            <p>A facial is a beautifying skin treatment that cleanses pores, exfoliates dead skin cells, hydrates and moisturises the skin, and treats common skin concerns with a customised regime.
-            </p>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/blog3.jpg" alt="" />
-          </div>
-          <div class="content">
-            <a href="#" class="title">Styling hair service</a>
-            <span>by Admin / 18th jan, 2024</span>
-            <p>
-              Love is in the hair! Get smooth sleek hair or gloriously bouncy
-              and voluminous hair. Your beautician will arrive at your home and
-              set up her equipment.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- blog end-->
-
-    <!-- visit -->
-
-    <section class="visit" id="visit">
-      <h1 class="heading">Make An Appointment</h1>
-
-      <div class="row">
-        <form action="">
-          <h3>Book your first visit today</h3>
-          <div class="inputBox">
-            <input type="text" placeholder="Your name" />
-          </div>
-          <div class="inputBox">
-            <input type="email" placeholder="Your e-mail" />
-          </div>
-          <div class="inputBox">
-            <input type="text" placeholder="Subject" />
-          </div>
-          <div class="inputBox">
-            <input type="text" placeholder="Message" />
-          </div>
-
-          <input type="submit" value="Send A Message" class="btn" />
-        </form>
-
+    <div class="box-container">
+      <div class="box">
         <div class="image">
-          <img src="images/contact.png" alt="" />
+          <img src="./images/style1.jpg" alt="" />
         </div>
-      </div>
-    </section>
-
-    <!-- visit end-->
-
-    <!-- reviews -->
-
-    <section class="review" id="review">
-      <h1 class="heading">Customer's Review</h1>
-
-      <div class="box-container">
-        <div class="box">
-          <img src="images/quote-img.png" alt="" class="quote" />
+        <div class="content">
+          <h3 class="title">Wedding Make-up</h3>
           <p>
-            I just wanted to say a MASSIVE THANK YOU for the makeup you did on myself,so lovely and such a calming influence on the day of the wedding, I loved everything about the makeup.</p>
-          <img src="images/review-1.png" class="user" alt="" />
-          <h3>Ayezal Khan</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-
-        <div class="box">
-          <img src="images/quote-img.png" alt="" class="quote" />
-          <p>
-            Just wanted to say thank you for yesterday, I was very happy with the makeup and it lasted throughout the day which was great.</p>
-          <img src="images/review-2.png" class="user" alt="" />
-          <h3>Sana Khan</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-
-        <div class="box">
-          <img src="images/quote-img.png" alt="" class="quote" />
-          <p>
-            Hair and makeup was by the amazing beautician who gave me an understated pretty look, keeping the skin fresh and like actual skin, with a bronzed eye and neutral lip. My hair was wavy and half up in a gorgeous.
-          </p>
-          <img src="images/review-3.png" class="user" alt="" />
-          <h3>Ifrah Sheikh</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- reviews end -->
-
-    <!-- footer -->
-
-    <section class="footer">
-      <div class="box-container">
-        <div class="box">
-          <h3>Find us here</h3>
-          <p>
-            Near Board Office, Karachi Pakistan 75800.
-          </p>
-          <div class="share">
-            <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f"></a>
-            <a href="https://github.com/amromankhan" target="_blank" class="fab fa-github"></a>
-            <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
-            <a href="https://www.linkedin.com/in/amromankhan/" target="_blank" class="fab fa-linkedin"></a>
-          </div>
-        </div>
-
-        <div class="box">
-          <h3>contact us</h3>
-          <p>+923482298174</p>
-          <a href="#" class="link">amromankhan@gmail.com</a>
-        </div>
-
-        <div class="box">
-          <h3>localization</h3>
-          <p>
-            V/C-33, P.B.S.T 3, Nazimabad, Behind Matric Board Office, Karachi-Pakistan
+            traditional or Modern Makeover; you deserve nothing but the best.
           </p>
         </div>
       </div>
 
-      <div class="credit">
-        created by <span>Alpha Developer</span> 
-        <p>Roman Khan <br>Saif-ur-Rehman & Faheem
+      <div class="box">
+        <div class="image">
+          <img src="./images/style2.png" alt="" />
+        </div>
+        <div class="content">
+          <h3 class="title">Party Make-up</h3>
+          <p>
+            A complexion treatment enhances eyes, brows, and lips to add
+            definition to the face.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/style3.png" alt="" />
+        </div>
+        <div class="content">
+          <h3 class="title">Mehandi</h3>
+          <p>
+            Unique and trendy designs different types of bridal & party
+            Mehndi.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/style4.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3 class="title">Hair Style</h3>
+          <p>
+            Hair extensions offer an instant and dramatic change in style for
+            a client.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- styles end-->
+
+  <!-- pricing -->
+
+  <section class="pricing" id="pricing">
+    <h1 class="heading">Offer and Pricing</h1>
+
+    <div class="box-container">
+      <div class="box">
+        <h3 class="title">Basic</h3>
+        <div class="price">
+          <span class="currency">Rs</span>
+          <span class="amount">5k</span>
+        </div>
+        <ul>
+          <li><i class="fas fa-check"></i> Face Polish</li>
+          <li><i class="fas fa-check"></i> Facial</li>
+          <li><i class="fas fa-check"></i> Eye Brow</li>
+          <li><i class="fas fa-check"></i> Protein Treatment</li>
+        </ul>
+        <a href="#"><button>Purchase Now</button></a>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Standard</h3>
+        <div class="price">
+          <span class="currency">Rs</span>
+          <span class="amount">10k</span>
+        </div>
+        <ul>
+          <li><i class="fas fa-check"></i> Botox</li>
+          <li><i class="fas fa-check"></i> Hair Glossing</li>
+          <li><i class="fas fa-check"></i> Gold Facial</li>
+          <li><i class="fas fa-check"></i> Perms</li>
+        </ul>
+        <a href="#"><button>Purchase Now</button></a>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Premium</h3>
+        <div class="price">
+          <span class="currency">Rs</span>
+          <span class="amount">15k</span>
+        </div>
+        <ul>
+          <li><i class="fas fa-check"></i>Meni Pedi</li>
+          <li><i class="fas fa-check"></i>Hydra Cellular Facial</li>
+          <li><i class="fas fa-check"></i>Age Summum</li>
+          <li><i class="fas fa-check"></i>Conditioning</li>
+        </ul>
+        <a href="#"><button>Purchase Now</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- pricing end -->
+
+  <!-- blog -->
+
+
+  <section class="blogs" id="blog">
+    <h1 class="heading">our blogs</h1>
+
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="./images/blog1.jpg" alt="" />
+        </div>
+        <div class="content">
+          <a href="bridalservice.html" class="title">Bridal Make-up</a>
+          <span>by Admin / 11th june, 2021</span>
+          <p>Bridal makeup is a special type of makeup that is applied to a bride on her wedding day,
+            Flawless makeup to make you look and feel your best. We bring
+            everything you need!
+          </p>
+          <a href="./bridalservice.html">
+            <p>Read More...</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/blog2.png" alt="" />
+        </div>
+        <div class="content">
+          <a href="weddingservice.html" class="title">Facial Treatment</a>
+          <span>by Admin / 16th September, 2022</span>
+          <p>A facial is a beautifying skin treatment that cleanses pores, exfoliates dead skin cells, hydrates and
+            moisturises the skin, and treats common skin concerns with a customised regime.
+          </p>
+          <a href="./weddingservice.html">
+            <p>Read More...</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./images/blog3.jpg" alt="" />
+        </div>
+        <div class="content">
+          <a href="hairextensionservice.html" class="title">Styling hair service</a>
+          <span>by Admin / 18th jan, 2024</span>
+          <p>
+            Love is in the hair! Get smooth sleek hair or gloriously bouncy
+            and voluminous hair. Your beautician will arrive at your home and
+            set up her equipment.</p>
+          <a href="hairextensionservice.html">
+            <p>Read More...</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- blog end-->
+
+  <!-- appointment -->
+
+  <section class="appointment" id="appointment">
+    <h1 class="heading">Make An Appointment</h1>
+
+    <div class="row">
+      <form action="" id="appointment">
+        <div class="alert">Your Appointment has Been Submitted.</div>
+        <h3>Book your first appointment today</h3>
+        <div class="inputBox">
+          <input type="text" id="name" placeholder="Your name" />
+        </div>
+        <div class="inputBox">
+          <input type="email" id="emailid" placeholder="Your e-mail" />
+        </div>
+        <div class="inputBox">
+          <input type="number" id="phoneid" placeholder="Phone Number" />
+        </div>
+        <div class="inputBox">
+          <input type="text" id="msgContent" placeholder="Message" />
+        </div>
+
+        <input type="submit" value="Send A Message" class="btn" />
+      </form>
+
+      <div class="image">
+        <img src="./images/contact.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <!-- appointment end-->
+
+  <!-- reviews -->
+
+  <section class="review" id="review">
+    <h1 class="heading">Customer's Review</h1>
+
+    <div class="box-container">
+      <div class="box">
+        <img src="./images/quote-img.png" alt="" class="quote" />
+        <p>
+          I just wanted to say a MASSIVE THANK YOU for the makeup you did on
+          myself,so lovely and such a calming influence on the day of the
+          wedding, I loved everything about the makeup.
+        </p>
+        <img src="./images/review-1.png" class="user" alt="" />
+        <h3>Ayezal Khan</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="./images/quote-img.png" alt="" class="quote" />
+        <p>
+          Just wanted to say thank you for yesterday, I was very happy with
+          the makeup and it lasted throughout the day which was great.
+        </p>
+        <img src="./images/review-2.png" class="user" alt="" />
+        <h3>Sana Khan</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="./images/quote-img.png" alt="" class="quote" />
+        <p>
+          Hair and makeup was by the amazing beautician who gave me an
+          understated pretty look, keeping the skin fresh and like actual
+          skin, with a bronzed eye and neutral lip. My hair was wavy and half
+          up in a gorgeous.
+        </p>
+        <img src="./images/review-3.png" class="user" alt="" />
+        <h3>Ifrah Sheikh</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviews end -->
+
+  <!-- footer -->
+
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Find us here</h3>
+        <p>Near Board Office, Karachi Pakistan 75800.</p>
+        <div class="share">
+          <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+          <a href="https://github.com/amromankhan" target="_blank" class="fab fa-github"></a>
+          <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/amromankhan/" target="_blank" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>contact us</h3>
+        <p>+923482298174</p>
+        <a href="#" class="link">amromankhan@gmail.com</a>
+      </div>
+
+      <div class="box">
+        <h3>localization</h3>
+        <p>
+          V/C-33, P.B.S.T 3, Nazimabad, Behind Matric Board Office,
+          Karachi-Pakistan
         </p>
       </div>
-    </section>
+    </div>
 
-    <!-- footer end-->
+    <div class="credit">
+      created by <span>Alpha Developer</span>
+      <p>Roman Khan <br />Saif-ur-Rehman & Faheem</p>
+    </div>
+  </section>
 
-    <script src="js/script.js"></script>
-  </body>
+  <!-- footer end-->
+
+
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+  <script src="./js/firebase.js"></script>
+  <script src="./js/welcome.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/appointment.js
+    "></script>
+</body>
+
 </html>
